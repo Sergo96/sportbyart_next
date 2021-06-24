@@ -1,0 +1,28 @@
+.videosContain {
+  width: 100%;
+  max-width: 1300px;
+  height: inherit;
+  margin: auto;
+}
+
+.videosWrapp {
+  width: 90%;
+  height: inherit;
+  margin: auto;
+}
+
+.videosTitle {
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* margin-top: 40px; */
+}
+
+.videoCart {
+  margin: 20px;
+}

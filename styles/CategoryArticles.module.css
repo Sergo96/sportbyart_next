@@ -1,0 +1,93 @@
+.categoryContain {
+  width: 100%;
+  max-width: 1300px;
+  height: inherit;
+  margin: auto;
+}
+
+.categoryWrapp {
+  width: 90%;
+  height: inherit;
+  margin: auto;
+}
+
+.categoryTitle {
+  margin-top: 86px;
+  margin-bottom: 10px;
+}
+
+.mainCategoryArticleBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+}
+
+.categoryArticles {
+  display: flex;
+  flex: 0.55;
+  flex-direction: column;
+}
+
+.latestCatArticles {
+  display: flex;
+  flex: 0.25;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.latestCatArticles > h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+
+  color: #000000;
+}
+
+.latestCatArticle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.latestCatArticle:hover {
+  background-color: rgb(221, 224, 226);
+  border-radius: 5px;
+}
+
+.latestCatArticle > h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 133%;
+  /* or 27px */
+
+  color: #000000;
+  margin-top: 14px;
+}
+
+.latestCatArticle > h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 133%;
+  margin-top: 14px;
+  margin-bottom: 11px;
+
+  color: #000000;
+}
+
+@media (max-width: 738px) {
+  .mainCategoryArticleBody {
+    flex-direction: column;
+  }
+}

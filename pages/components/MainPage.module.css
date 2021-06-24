@@ -1,0 +1,183 @@
+.mainWrap {
+  width: 100%;
+  margin-top: 200px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: auto;
+  border-radius: 16px;
+  width: 65%;
+  box-sizing: border-box;
+}
+
+.latestNewsGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.latestNewsArticle {
+  position: relative;
+  flex: 0 0 calc(34% - 40px);
+  margin: 10px;
+  align-self: flex-start;
+  overflow: hidden;
+}
+
+.latestNewsArticle::after {
+  content: '';
+  display: block;
+}
+/* 
+.latestNewsArticle:first-child {
+  flex: 0 0 calc(40% - 10px);
+} */
+
+/* football */
+
+.footballNews {
+  margin-top: 200px;
+}
+
+.newsTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsTitle > h1 {
+  margin-right: 30px;
+}
+
+.newsTitle > hr {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.footballNewsGrid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footballNewsArticle {
+  position: relative;
+  flex-basis: calc(34% - -177px);
+  align-self: flex-start;
+  overflow: hidden;
+}
+
+/* football end */
+
+/* basketball */
+
+.basketballNews {
+  margin-top: 200px;
+}
+
+.basketballNewsGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.basketballNewsArticle {
+  position: relative;
+  flex: 0 0 calc(34% - 40px);
+  margin: 10px;
+  align-self: center;
+  overflow: hidden;
+}
+
+/* basketball end */
+
+/* black Bell */
+.blackBell {
+  margin-top: 90px;
+  width: 100%;
+  background-color: black;
+  height: 200px;
+}
+/* end black bell */
+
+@media (max-width: 1901px) {
+  .footballNewsArticle {
+    flex: 0 0 calc(38% - -128px);
+  }
+}
+
+@media (max-width: 1844px) {
+  .latestNewsArticle {
+    flex: 0 0 calc(29% - 40px);
+  }
+}
+
+@media (max-width: 1695px) {
+  .footballNewsArticle {
+    flex-basis: calc(35% - -139px);
+  }
+}
+
+@media (max-width: 1464px) {
+  .footballNewsArticle {
+    flex-basis: calc(32% - -136px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .footballNewsArticle {
+    flex-basis: calc(26% - -143px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .latestNewsArticle {
+    flex-basis: calc(36% - 38px);
+  }
+  .footballNewsArticle {
+    flex-basis: calc(24% - -121px);
+  }
+}
+
+@media (max-width: 768px) {
+  .latestNewsArticle {
+    flex-basis: calc(54% - 43px);
+  }
+  .footballNewsArticle {
+    flex-basis: calc(20% - -107px);
+  }
+  .footballNewsGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .basketballNewsArticle {
+    flex-basis: calc(54% - 43px);
+  }
+}
+
+@media (max-width: 600px) {
+  .latestNewsGrid {
+    flex-direction: column;
+  }
+  /* .footballNewsArticle {
+    flex-basis: calc(47% - -102px);
+  } */
+  .footballNewsGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .basketballNewsGrid {
+    flex-direction: column;
+  }
+}

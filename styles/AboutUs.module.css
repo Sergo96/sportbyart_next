@@ -1,0 +1,95 @@
+.aboutUsContain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1300px;
+  height: inherit;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.aboutsUsWrapp {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: inherit;
+  margin: auto;
+}
+
+.aboutUsTitle > h1 {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 85px;
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+
+  color: #000000;
+}
+
+.aboutUsContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.aboutUsContentInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 0.9;
+  margin-bottom: 40px;
+}
+
+.aboutUsContentInfoText > h2 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+
+  /* 3rd color */
+
+  color: #fba919;
+  margin-bottom: 20px;
+}
+
+.aboutUsContentInfoText > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  /* line-height: ; */
+  /* or 41px */
+
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.aboutUsBlackBell {
+  margin-top: 90px;
+  width: 100%;
+  background-color: black;
+  height: 200px;
+}
+
+.aboutUsAuthorImage {
+  margin-top: 40px;
+}
+
+.aboutUsAuthorContain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutUsAuthorInfo {
+  display: flex;
+  flex: 0.9;
+}
+
+.aboutUsAuthorInfo > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  /* or 52px */
+
+  color: #000000;
+}

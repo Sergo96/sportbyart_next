@@ -1,0 +1,97 @@
+.errorWrap {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.errorContain {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1300px;
+  height: inherit;
+  margin: auto;
+  justify-content: center;
+}
+
+.errorThumb {
+  position: relative;
+}
+
+.errorInfo {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  align-items: center;
+  justify-content: center;
+}
+
+.errorBackground {
+  background: url(../assets/ErrorThumb/error.svg) 100% 100% no-repeat;
+  height: 160vh;
+  background-size: contain;
+}
+
+@media (max-width: 1024px) {
+  .errorInfo > h1 {
+    font-size: 18px;
+  }
+  .errorInfo > h2 {
+    font-size: 18px;
+  }
+
+  .errorBackground {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .errorInfo > h1 {
+    font-size: 15px;
+  }
+  .errorInfo > h2 {
+    font-size: 15px;
+  }
+
+  .errorBackground {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .errorInfo > h1 {
+    font-size: 9px;
+  }
+  .errorInfo > h2 {
+    font-size: 9px;
+  }
+
+  .errorBackground {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .errorInfo > h1 {
+    font-size: 9px;
+  }
+  .errorInfo > h2 {
+    font-size: 9px;
+  }
+
+  .errorBackground {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 280px) {
+  .errorInfo > h1 {
+    font-size: 9px;
+  }
+  .errorInfo > h2 {
+    font-size: 9px;
+  }
+
+  .errorBackground {
+    height: 28vh;
+  }
+}
